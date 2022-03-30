@@ -1,0 +1,65 @@
+.boby{
+    background-color: #598a92 !important;
+
+}
+.main-row{
+    margin-top: 10%;
+}
+.card{
+    cursor: pointer;
+}
+.card{
+   transform: translateY(-50px);
+   border-radius:15px ;
+   z-index: 1;
+   
+}
+
+.card:hover {
+    background-color:#DEE8E5 ;
+    height: auto;
+}
+.card:hover {
+    box-shadow: 5px 10px 10px 20px  rgb(107, 104, 104);
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+}
+
+.card-img-top {
+    height: 200px;
+}
+.a {
+  text-shadow: rgb(202, 194, 182);
+   
+}
+
+
+.navbar {
+  background-image: url("images/Nav Background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+  .navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+  }
+
+  .dropdown-menu {
+    text-align: center;
+    background-image: url("images/Nav Background.jpg");
+    background-size: cover;
+    background-position: center;
+    font-size: 18px;
+  }
+
+  .dropdown-item:hover {
+    background-image: url("images/Nav Background.jpg");
+    font-size: 18px;
+  }
+
+  .footer {
+    background-image: url("images/Nav Background.jpg");
+    background-size: cover;
+    background-position: center;
+  }

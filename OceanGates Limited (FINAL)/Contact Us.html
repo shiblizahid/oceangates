@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="images/Logo.png" type="image/png">
+
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0/dist/js/bootstrap.js">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+
+    <script src="jquery-validation-1.19.3/dist/jquery.validate.js"></script>
+    <script src="jquery-validation-1.19.3/dist/additional-methods.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("images/download2.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .navbar {
+            background-image: url("images/Nav Background.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .navbar-brand {
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+        }
+
+        .dropdown-menu {
+            text-align: center;
+            background-image: url("images/Nav Background.jpg");
+            background-size: cover;
+            background-position: center;
+            font-size: 18px;
+        }
+
+        .dropdown-item:hover {
+            background-image: url("images/Nav Background.jpg");
+            font-size: 18px;
+        }
+
+        .footer {
+            background-image: url("images/Nav Background.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .map {
+            min-width: 300px;
+            min-height: 300px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .map:hover {
+            box-shadow: 10px 10px 20px gray;
+            transition-duration: .5s;
+            transition-timing-function: ease-in;
+        }
+
+        .header {
+            background-image: url("images/Nav Background.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            height: 70px;
+            font-size: 30px;
+            padding: 10px;
+            margin-top: 20px;
+
+        }
+
+        .header:hover {
+            box-shadow: 10px 10px 20px gray;
+            transition-duration: .5s;
+            transition-timing-function: ease-in;
+        }
+
+        .form-horizontal {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light text-light">
+        <a href="Home Page.html" class="navbar-brand text-light">OGL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span></button>
+        <div id="mynavbar" class="collapse navbar-collapse ">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="Home Page.html" class="nav-link active text-light">HOME <i class="fas fa-home"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="About Us.html" class="nav-link active text-light ">ABOUT US <i class="fas fa-address-card"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="Contact Us.html" class="nav-link active text-light">CONTACT US <i class="fas fa-id-card-alt"></i></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle active text-light" data-toggle="dropdown">BRANDS <i class="fab fa-product-hunt"></i></a>
+              <div class="dropdown-menu">
+                <a href="dell.html" class="dropdown-item text-light">DEL</a>
+                <div class="dropdown-divider bg-secondary"></div>
+                <a href="lenovo.html" class="dropdown-item text-light">LEVENO</a>
+                <div class="dropdown-divider bg-secondary"></div>
+                <a href="brandpage.html" class="dropdown-item text-light">SAMSUNG</a>
+                <div class="dropdown-divider bg-secondary"></div>
+                <a href="brandpage1.html" class="dropdown-item text-light">APPLE</a>
+                <div class="dropdown-divider bg-secondary"></div>
+                <a href="hp.html" class="dropdown-item text-light">HP</a>
+              </div>
+            </li>
+            <li class="nav-item ">
+              <a href="form.html" class="nav-link active text-light">FEEDBACK <i class="fas fa-comment-alt"></i></a>
+            </li>
+            <li class="nav-item ">
+              <a href="sign in.html" class="nav-link active text-light">SIGN IN <i class="fas fa-male"></i><i class="fas fa-female"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="well well-sm">
+                    <form class="form-horizontal">
+                        <fieldset>
+                            <br>
+                            <legend class="text-center header">Contact Us</legend>
+                            <div class="form-group">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <input id="fname" name="name" type="text" placeholder="First Name"
+                                        class="form-control" pattern="[A-Za-z]{1,20}" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <input id="lname" name="name" type="text" placeholder="Last Name"
+                                        class="form-control" pattern="[A-Za-z]{1,20}" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <input id="email" name="email" type="text" placeholder="Email Address"
+                                        class="form-control" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control"
+                                        pattern="{11}" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-10 col-md-offset-1">
+                                    <textarea class="form-control" id="message" name="message"
+                                        placeholder="Enter your massage here" rows="7"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="btn btn-primary d-block">Submit</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <div class="panel panel-default">
+                        <div class="text-center header">Our Office</div>
+                        <div class="panel-body text-center">
+                            <h4>Address</h4>
+                            <div>
+                                M.Veli, 2nd Floor,, Handhuvaree Hingun,<br />
+                                Malé, Maldives<br />
+                                +9603305957<br />
+                                <a href="https://myaccount.google.com/">oceangateslimited@gmail.com</a>
+                            </div>
+                            <hr />
+                            <div id="map1" class="map">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.2218783041967!2d73.50243931426277!3d4.176738347141998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b3f7fbd1bf37a7d%3A0x38a8717865d5e908!2sOcean%20Gate%20Logistics%20Pvt%20Ltd!5e0!3m2!1sen!2s!4v1637516966724!5m2!1sen!2s"
+                                    width="460" height="350" style="border:0;" allowfullscreen=""
+                                    loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-3">
+        <footer class="footer py-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="ml-2 text-light"><b>OCEANGATES<br><span>LIMITED</span></b></h3>
+                    <p class="ml-2 text-light">OceanGates Limited is an international Company.</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h6 class="text-light">Follow us on</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.facebook.com/">Facebook <i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://www.instagram.com/accounts/login/?hl=en">Instagram <i
+                                    class="fab fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/c/OceanGateExpeditions">Youtube <i
+                                    class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://twitter.com/i/flow/login">Twitter <i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-light">You can contact us on</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.whatsapp.com/">+9603305957<i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="https://myaccount.google.com/">oceangateslimited@gmail.com</a></li>
+                        <li class="text-light">Address :<a href="#"> Headoffice on new york, America.</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <p class="text-center text-light">&copy; All Right Reserved to OceanGates Limited. <a
+                        href="#">oceangateslimited@gmail.com</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript">
+        jQuery(function ($) {
+            function init_map1() {
+                var myLocation = new google.maps.LatLng(38.885516, -77.09327200000001);
+                var mapOptions = {
+                    center: myLocation,
+                    zoom: 16
+                };
+                var marker = new google.maps.Marker({
+                    position: myLocation,
+                    title: "Property Location"
+                });
+                var map = new google.maps.Map(document.getElementById("map1"),
+                    mapOptions);
+                marker.setMap(map);
+            }
+            init_map1();
+        });
+    </script>
+</body>
+
+</html>
